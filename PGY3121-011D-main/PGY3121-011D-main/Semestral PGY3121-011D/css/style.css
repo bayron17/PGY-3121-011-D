@@ -30,16 +30,17 @@
 }
 
 /* arrastramos 10 px el boton hacia abajo */
-.container button{
-
-    margin-top: 10px;
-    text-align: right;
-    
-}
 
 .classbutton{
+    margin-top: 10px;
     text-align: right;
+   
 } 
+
+.classbutton :hover{
+    background-color: darkgray;
+}
+
 
 .container label{
 
