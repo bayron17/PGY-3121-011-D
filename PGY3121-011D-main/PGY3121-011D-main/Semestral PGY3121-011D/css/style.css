@@ -1,8 +1,10 @@
+
 .containercol {
     padding-top: 75px;
-    background-color: rgb(252, 239, 199);
+    background-color: white;
 }
 
+/* cambiamos colores de flechas del carusel */
 .carousel-control-prev, .arousel-control-prev-icon{
     filter: invert(108%);
     
@@ -21,13 +23,20 @@
     filter: invert(108%);
 }
 
+/* movemos columnas desde el margen  hacia la izquierda */
 .col{
     margin-left: 20px;
 }
 
+/* arrastramos 10 px el boton hacia abajo */
 .container button{
 
     margin-top: 10px;
     
+}
+
+.container label{
+
+    margin-top:5px;
 }
 
