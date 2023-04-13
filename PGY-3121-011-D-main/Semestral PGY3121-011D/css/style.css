@@ -1,0 +1,83 @@
+.containercol {
+    padding-left: 15px;
+    padding-top: 75px;
+    background-color: rgb(252, 251, 251);
+}
+/* cambiamos colores de las flechaas del carusel */
+.carousel-control-prev, .arousel-control-prev-icon{
+    filter: invert(108%);
+    
+}
+
+.carousel-control-next, .arousel-control-next-icon{
+    filter: invert(108%);
+    
+} 
+
+.carousel-control-prev, .arousel-control-prev-icon{
+    filter: invert(108%);
+}
+
+.carousel-control-next, .arousel-control-next-icon{
+    filter: invert(108%);
+}
+
+/* MODIFIamos y alineamos el boton de registrar usuaio */
+.containerbtn button{
+    padding-top: 5px;
+}
+
+.containerbtn{
+    /* arrastramos el boton hacia la derecha lo alejamos con un margin del borde y lo arrastamos hacia abajo*/
+   
+    margin-right: 7px;
+    text-align: end;
+}
+
+.containerbtn :hover{
+    background-color: grey;
+
+}
+
+.navbar button{
+    margin-right: 10px;
+}
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+body{
+    /* SIRVE PARA MOVER FOOTER HACIA ABAJO
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto; */
+}
+.footer{
+    padding-top: 30px;
+   
+  
+    
+}
+
+#fondo{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXDBsEOsFRS6Int8zhznFa-mthkAUUXj_BG7NdESXJtClm8GY2SY0d24opViOFXnw6U0&usqp=CAU");
+   
+}
+
+.containerTips img{
+    width: 80%;
+    height: 100%;
+}
+
+#img{
+    text-align: end;
+}
+
+#descTips h1{
+    margin-top: 100px;
+}

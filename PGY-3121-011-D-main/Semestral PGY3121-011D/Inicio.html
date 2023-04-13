@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+
+<!-- icono de pestaña -->
+
+<link rel="Inicio icon" type="png" href="img/petshop.png">
+
+<body>
+
+
+    <!-- INICIO DE NAVBAR -->
+
+
+    <div class="p-3 mb-2 bg-light text-emphasis-warning">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img width="75px" height="75px" src="img/petshop.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Bienvenidos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Sección Caninos</a></li>
+                                <li><a class="dropdown-item" href="#">Sección Felinos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registroUsuario.html">Registro de usuario</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-secondary" >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- FIN DE NAVBAR -->
+
+
+    <!-- INICIO DE HEADING -->
+
+
+    <div class="p-3 mb-2 bg-light text-emphasis-warning">
+        <div class="d-flex p-2">
+            <h2>Bienvenidos a PetShop! <span class="badge bg-danger">Encuentra variedades de productos en nuestra
+                    tienda</span></h2>
+        </div>
+
+    </div>
+
+
+    <!-- FIN DE HEADING -->
+
+    <!-- INICIO DE COLUMNAS DE OFERTAS -->
+
+    <div class="containercol text-center">
+        <div class="row">
+            <div class="col" >
+                <div id="carouselExampleIndicators1" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/arnes-paseo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Arnes para paseo</h5>
+                              <p class="card-text">Arnes confeccionado con materiales resistente para dar un agradable paseo.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/vaso-portatil.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso portatil</h5>
+                              <p class="card-text">Vaso portatil junto un posillo para hidratar nuestras mascotas en el lugar que sea.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/transporte-mascota.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jaula para transporte</h5>
+                              <p class="card-text">Jaula de gran tamaño para transporte de nuestras mascotas</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+            <div class="col">
+                <div id="carouselExampleIndicators2" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/plato-comida--bebedero.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Plato para alimentos</h5>
+                              <p class="card-text">Plato de comida y bebedero para mascota.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/cama-perro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cama para perro</h5>
+                              <p class="card-text">Linda cama para caninos confeccionads con materiales de alta calidad.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/sabanillas-higienicas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">sabanillas higienicas</h5>
+                              <p class="card-text">Sabanillas higienicas desechables para las necesidades de nuestras mascotas.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col">
+                <div id="carouselExampleIndicators3" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/guante-para-pelaje.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Guante para pelaje</h5>
+                              <p class="card-text">Guante para retirar el exceso de pelaje de nuestras mascotas.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/set-pelotas-jugete.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Set de pelotas</h5>
+                              <p class="card-text">Set de pelotas para jugar junto nustros aniamles.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/set-pelotas-jugete.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Pelota para morder</h5>
+                              <p class="card-text">Pelota fabricada con materiales de alta calidad y no toxicos para que nuestros animales puedan mordr.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col">
+                <div id="carouselExampleIndicators4" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/cama-colgante-felino.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cama colgante</h5>
+                              <p class="card-text">Linda eh innovadora cama colgante para felinos.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/jugete-felino.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Jugete para felino</h5>
+                              <p class="card-text">Jugete de entretencion para felinos.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/rascador-felino.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Rascador para felino</h5>
+                              <p class="card-text">Rascador de 6 plataformas modelo muy lindo.</p>
+                              <a href="#" class="btn btn-dark">Agregar producto</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN DE COLUMNAS DE OFERTAS -->
+
+    <section  id="productos" >
+
+      <div class="row">
+
+        
+      </div>
+
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="img/accesorio-felino.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Accesorio felino</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="img/comida-felino.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Comida felino</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="img/snack-felino.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Snack para felino</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="img/disfraz-felino.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Disfraz para felino</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card mx-2" style="width: 18rem;">
+        <img src="img/peluche.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Peluche accesorio</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="containerTips my-2">
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+
+            <div id="descTips">
+
+              <h1>Tips de gran ayuda para el cuidados de nuestros peluditos</h1>
+
+            </div>
+           
+          </div>
+          <div class="col">
+
+            <div id="img" class="mx-2">
+              <img src="img/tipsCuidadosMascota.png" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+   
+    <footer>
+
+        <div class="my-2 mx-2" id="fondo">
+   
+          <h3>Quienes somos!</h3>
+         
+          <br>
+   
+          <p>Pet shop es una marca creada por un grupo de amigas , las cuales comenzaron con la venta de varios productos
+            para mascotas tales como bandanas, correas , identificaciones , camas ,jugestes entre otros , todo esto para ayudar a 
+            una fundación sin fines de lucro, todo partió a través de las redes
+          </p>
+
+    </footer>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+        integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
